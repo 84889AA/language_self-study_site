@@ -1,0 +1,4 @@
+tak ma wygladac w materials service
+
+User user = userRepository.findById(materialDTO.getUser_id()).get();
+        material.setUser(user);
